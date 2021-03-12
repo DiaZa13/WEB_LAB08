@@ -19,6 +19,7 @@ module.exports = {
         new htmlWebpackplugin({
             template: "./src/index.html",
             filename: "index.html",
+            chunks: ["index"]
         })
     ],
     module:{
