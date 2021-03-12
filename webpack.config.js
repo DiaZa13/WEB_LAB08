@@ -1,6 +1,6 @@
 //CONFIGURACION WEBPACK
 const path = require('path');
-//const miniCssExtractplugin = require('mini-css-extract-plugin');
+const miniCssExtractplugin = require('mini-css-extract-plugin');
 const htmlWebpackplugin = require('html-webpack-plugin');
 
 module.exports = {
@@ -15,7 +15,7 @@ module.exports = {
     },
     //Plugins
     plugins: [
-        //new miniCssExtractplugin({ filename: "index.bundle.css" }),
+        new miniCssExtractplugin({ filename: "index.bundle.css" }),
         new htmlWebpackplugin({
             template: "./src/index.html",
             filename: "index.html",
