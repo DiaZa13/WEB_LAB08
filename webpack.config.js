@@ -43,7 +43,7 @@ module.exports = {
                     }
                 ]
             },
-            /*{
+            {
                 test: /\.(svg|png|jpg|gif)$/i,
                 use: {
                     loader: "file-loader",
@@ -53,7 +53,7 @@ module.exports = {
                     }
                 }
             },
-            {
+            /*{
 
                 test: /\.mp3$/i,
                 use: {

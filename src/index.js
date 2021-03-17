@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.scss'
+import './style/index.scss'
 
-import Basic from './game/cards';
+import Game from './game';
 
-ReactDOM.render(<Basic/>, document.getElementById("root"));
+const container = document.getElementById("root");
+ReactDOM.render(<Game/>,container);
