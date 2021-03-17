@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './style/index.scss'
 
-import Game from './game';
+import Page from './components/page';
 
 const container = document.getElementById("root");
-ReactDOM.render(<Game/>,container);
+ReactDOM.render(<Page/>,container);

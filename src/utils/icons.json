@@ -1,0 +1,300 @@
+[
+  {
+    "classIcon": "bi-alarm",
+    "name": "ALARM"
+  },{
+    "classIcon": "bi-archive-fill",
+    "name": "ARCHIVE"
+  },{
+    "classIcon": "bi-asterisk",
+    "name": "ASTERISK"
+  },{
+    "classIcon": "bi-at",
+    "name": "AT"
+  },{
+    "classIcon": "bi-award",
+    "name": "AWARD"
+  },{
+    "classIcon": "bi-backspace-fill",
+    "name": "BACKSPACE"
+  },{
+    "classIcon": "bi-bag",
+    "name": "BAG"
+  },{
+    "classIcon": "bi-bag-check-fill",
+    "name": "BAG CHECK"
+  },{
+    "classIcon": "bi-bar-chart-line",
+    "name": "BAR CHART"
+  },{
+    "classIcon": "bi-basket2",
+    "name": "BASKET"
+  },{
+    "classIcon": "bi-battery-charging",
+    "name": "CHARGING"
+  },{
+    "classIcon": "bi-battery-half",
+    "name": "BATTERY"
+  },{
+    "classIcon": "bi-bell",
+    "name": "BELL"
+  },{
+    "classIcon": "bi-bicycle",
+    "name": "BICYCLE"
+  },{
+    "classIcon": "bi-binoculars-fill",
+    "name": "BINOCULARS"
+  },{
+    "classIcon": "bi-book-half",
+    "name": "BOOK"
+  },{
+    "classIcon": "bi-bookmark-heart",
+    "name": "BOOKMARK"
+  },{
+    "classIcon": "bi-box-seam",
+    "name": "BOX"
+  },{
+    "classIcon": "bi-bricks",
+    "name": "BRICKS"
+  },{
+    "classIcon": "bi-briefcase-fill",
+    "name": "BRIEFCASE"
+  },{
+    "classIcon": "bi-brightness-alt-high-fill",
+    "name": "SUNRISE"
+  },{
+    "classIcon": "bi-brightness-high",
+    "name": "SUN"
+  },{
+    "classIcon": "bi-brush",
+    "name": "BRUSH"
+  },{
+    "classIcon": "bi-bucket",
+    "name": "BUCKET"
+  },{
+    "classIcon": "bi-bug-fill",
+    "name": "BUG"
+  },{
+    "classIcon": "bi-building",
+    "name": "BUILDING"
+  },{
+    "classIcon": "bi-bullseye",
+    "name": "BULLSEYE"
+  },{
+    "classIcon": "bi-calculator",
+    "name": "CALCULATOR"
+  },{
+    "classIcon": "bi-calendar-week",
+    "name": "CALENDAR"
+  },{
+    "classIcon": "bi-camera2",
+    "name": "CAMERA"
+  },{
+    "classIcon": "bi-camera-reels",
+    "name": "CAMERA REELS"
+  },{
+    "classIcon": "bi-card-checklist",
+    "name": "CHECKLIST"
+  },{
+    "classIcon": "bi-card-image",
+    "name": "IMAGE"
+  },{
+    "classIcon": "bi-cart4",
+    "name": "CART"
+  },{
+    "classIcon": "bi-cash",
+    "name": "CASH"
+  },{
+    "classIcon": "bi-chat-dots-fill",
+    "name": "CHAT"
+  },{
+    "classIcon": "bi-chek-all",
+    "name": "SEEN"
+  },{
+    "classIcon": "bi-circle-half",
+    "name": "CIRCLE"
+  },{
+    "classIcon": "bi-clock-fill",
+    "name": "CLOCK"
+  },{
+    "classIcon": "bi-cloud",
+    "name": "CLOUD"
+  },{
+    "classIcon": "bi-cloud-arrow-down",
+    "name": "DOWNLOAD"
+  },{
+    "classIcon": "bi-cloud-lightning-rain",
+    "name": "LIGHTNING"
+  },{
+    "classIcon": "bi-cloud-moon-fill",
+    "name": "NIGHT"
+  },{
+    "classIcon": "bi-cloud-sun-fill",
+    "name": "DAY"
+  },{
+    "classIcon": "bi-cone-striped",
+    "name": "CONE"
+  },{
+    "classIcon": "bi-compass",
+    "name": "COMPASS"
+  },{
+    "classIcon": "bi-controller",
+    "name": "CONTROLLER"
+  },{
+    "classIcon": "bi-cpu-fill",
+    "name": "CPU"
+  },{
+    "classIcon": "bi-credit-card",
+    "name": "CREDIT CARD"
+  },{
+    "classIcon": "bi-cup-fill",
+    "name": "CUP"
+  },{
+    "classIcon": "bi-cup-straw",
+    "name": "GLASS"
+  },{
+    "classIcon": "bi-diamond-half",
+    "name": "DIAMOND"
+  },{
+    "classIcon": "bi-dice-5-fill",
+    "name": "DICE"
+  },{
+    "classIcon": "bi-disc",
+    "name": "DISC"
+  },{
+    "classIcon": "bi-door-closed",
+    "name": "DOOR"
+  },{
+    "classIcon": "bi-droplet-half",
+    "name": "DROP"
+  },{
+    "classIcon": "bi-earbuds",
+    "name": "EARBUDS"
+  },{
+    "classIcon": "bi-easel",
+    "name": "EASEL"
+  },{
+    "classIcon": "bi-egg-fried",
+    "name": "EGG"
+  },{
+    "classIcon": "bi-emoji-dizzy",
+    "name": "EMOJI"
+  },{
+    "classIcon": "bi-eraser-fill",
+    "name": "ERASER"
+  },{
+    "classIcon": "bi-exclamation-octagon",
+    "name": "EXCLAMATION"
+  },{
+    "classIcon": "bi-eyedropper",
+    "name": "EYEDROPPER"
+  },{
+    "classIcon": "bi-eyeglasses",
+    "name": "EYEGLASSES"
+  },{
+    "classIcon": "bi-flag",
+    "name": "FLAG"
+  },{
+    "classIcon": "bi-flower3",
+    "name": "FLOWER"
+  },{
+    "classIcon": "bi-folder2-open",
+    "name": "FOLDER"
+  },{
+    "classIcon": "bi-funnel",
+    "name": "FUNNEL"
+  },{
+    "classIcon": "bi-gear-fill",
+    "name": "GEAR"
+  },{
+    "classIcon": "bi-gem",
+    "name": "GEM"
+  },{
+    "classIcon": "bi-geo-fill",
+    "name": "LOCATION"
+  },{
+    "classIcon": "bi-gift-fill",
+    "name": "GIFT"
+  },{
+    "classIcon": "bi-globe",
+    "name": "WEB"
+  },{
+    "classIcon": "bi-hammer",
+    "name": "HAMMER"
+  },{
+    "classIcon": "bi-hand-thumbs-up",
+    "name": "THUMBS UP"
+  },{
+    "classIcon": "bi-handbag-fill",
+    "name": "HANDBAG"
+  },{
+    "classIcon": "bi-headphones",
+    "name": "HEADPHONES"
+  },{
+    "classIcon": "bi-headset",
+    "name": "HEADSET"
+  },{
+    "classIcon": "bi-heat-half",
+    "name": "HEART"
+  },{
+    "classIcon": "bi-heptagon-half",
+    "name": "HEPTAGON"
+  },{
+    "classIcon": "bi-hourglass-split",
+    "name": "HOURGLASS"
+  },{
+    "classIcon": "bi-house-fill",
+    "name": "HOUSE"
+  },{
+    "classIcon": "bi-hurricane",
+    "name": "HURRICANE"
+  },{
+    "classIcon": "bi-inbox",
+    "name": "INBOX"
+  },{
+    "classIcon": "bi-journal-album",
+    "name": "JOURNAL"
+  },{
+    "classIcon": "bi-joystick",
+    "name": "JOYSTICK"
+  },{
+    "classIcon": "bi-key-fill",
+    "name": "KEY"
+  },{
+    "classIcon": "bi-keyboard",
+    "name": "KEYBOARD"
+  },{
+    "classIcon": "bi-ladder",
+    "name": "LADDER"
+  },{
+    "classIcon": "bi-lamp-fill",
+    "name": "LAMP"
+  },{
+    "classIcon": "bi-laptop",
+    "name": "LAPTOP"
+  },{
+    "classIcon": "bi-lightbulb",
+    "name": "LIGHTBULB"
+  },{
+    "classIcon": "bi-mailbox",
+    "name": "MAILBOX"
+  },{
+    "classIcon": "bi-megaphone",
+    "name": "MEGAPHONE"
+  },{
+    "classIcon": "bi-mic-FILL",
+    "name": "MIC"
+  },{
+    "classIcon": "bi-moon-stars",
+    "name": "MOON"
+  },{
+    "classIcon": "bi-moisture",
+    "name": "MOISTURE"
+  },{
+    "classIcon": "bi-nut",
+    "name": "NUT"
+  },{
+    "classIcon": "bi-paint-bucket",
+    "name": "PAINT"
+  }
+]

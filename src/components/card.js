@@ -6,19 +6,21 @@ class Card extends React.Component {
     constructor(props) {
         super(props);
         this.state = {flipped: false}
-        this.flip = this.flip.bind(this);
+        this.handleClick = this.handleClick.bind(this);
     }
 
-    flip(){
+    handleClick(){
         this.setState({ flipped: !this.state.flipped });
     }
 
     render() {
         return (
-            <div onClick={this.flip}  className={"card-container" + (this.state.flipped ? " flipped" : "")}>
-                <Front/>
-                <Back/>
-            </div>
+                <div onClick={this.handleClick} className={"card-container" + (this.state.flipped ? " flipped" : "")}>
+                    <Front/>
+                    <Back
+                        iconClass = {this.props.iconClass}
+                        iconName = {this.props.iconName}/>
+                </div>
         );
     }
 }
