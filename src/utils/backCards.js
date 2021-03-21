@@ -1,18 +1,23 @@
 import shuffle from 'lodash.shuffle';
-const CARDS_NUMBER = 20;
+const CARDS_NUMBER = 24;
 import Icons from './icons.json'
 export default () =>{
     const icons = Icons;
     let cards = [];
-    while(cards.length <CARDS_NUMBER){
+    let test = [];
+    while(cards.length < CARDS_NUMBER){
         const index = Math.floor(Math.random() * icons.length);
-        const card = {
-            iconClass: icons[index].classIcon,
-            iconName: icons[index].name,
-            guess: false
-        };
-        cards.push(card);
-        cards.push({...card});
+        if(test.indexOf(index) == -1){
+            const card = {
+                iconClass: icons[index].classIcon,
+                iconName: icons[index].name,
+                isComparing: false
+            };
+            cards.push(card);
+            cards.push({...card});
+            test.push(index);
+        }
+
     }
 
     return shuffle(cards);

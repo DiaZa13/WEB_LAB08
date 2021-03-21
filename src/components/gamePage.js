@@ -13,7 +13,9 @@ const initialState = ()=>{
     }
 };
 
-export default class Page extends React.Component{
+let guessedCards = 0;
+
+export default class GamePage extends React.Component{
     constructor(props) {
         super(props);
         this.state = initialState();
@@ -25,7 +27,7 @@ export default class Page extends React.Component{
             <div>
                 <Navbar
                     counter = {this.state.counter}
-                    initialState = {this.initialState}
+                    reset = {() => this.resetGame()}
                 />
                 <Game
                     backCard = {this.state.backCard}
@@ -60,6 +62,7 @@ export default class Page extends React.Component{
         setTimeout(()=>{
             const [firstCard, secondCard] = pairSelected;
             if(firstCard.iconName === secondCard.iconName) {
+                guessedCards += 1;
                 this.state.backCard.map((card) => {
                     const index = this.state.backCard.indexOf(card);
                     if(card.iconName != firstCard.iconName){
@@ -83,8 +86,14 @@ export default class Page extends React.Component{
                 })}
         ,1500);
 
-
-
     }
+
+    resetGame(){
+        this.setState(
+            initialState()
+        )
+    };
+
+
 }
 

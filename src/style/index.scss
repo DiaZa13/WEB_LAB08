@@ -1,72 +1,37 @@
-@import "./variables.scss";
+@import "./variables";
 @import "../../node_modules/bootstrap/scss/bootstrap";
+@import "./cards";
+@import "./home";
+/* Animate.css*/
+@import "~animate.css/animate.css";
+@import "~animate.css/source/bouncing_entrances/bounceInDown.css";
+
 body{
   background-color: $secondary;
 }
+
 
 .border-bottom{
   border-bottom-color: $primary !important;
 }
 
 .size{
-  width: 220px;
-  height: 300px;
-}
-
-.card-container{
-  position: relative;
-  transition: .8s;
-  width: 220px;
-  height: 300px;
-  margin: 5px;
-  &.flipped {
-    .front {
-      transform: rotateX(-180deg)
-    }
-
-    .back {
-      transform: rotateX(0deg);
-    }
-  }
-}
-
-.card{
-  width: 220px;
-  height: 300px;
-  align-items: center;
-  padding: 5px;
-}
-
-.front{
-  z-index: 2;
-  position: absolute;
-  backface-visibility: hidden;
-  transform: rotateX(0deg);
-  transition: .8s;
-    .icon{
-      font-size: 50px;
-      transform: translate(0%, -230%);
-    }
-}
-
-.back{
-  position: absolute;
-  backface-visibility: hidden;
-  transform: rotateX(180deg);
-  transition: .8s;
-  .icon{
-    color: #37474F;
-    position: absolute;
-    top: 26%;
-    font-size: 150px;
-  }
+  width: 170px;
+  height: 200px;
 }
 
 .row{
-  margin-left: 52px;
+  margin-left: 25px;
 }
 
+.cursor-pointer{
+  cursor: pointer;
+}
 
-
+.bi{
+  &:before{
+    margin-right: 5px;
+  }
+}
 
 

@@ -1,0 +1,32 @@
+.home-background{
+  background-image: $home-image;
+}
+
+.home-button{
+  border-radius: 500px;
+  line-height: 1;
+  padding: 17px;
+  position: absolute;
+  top: 70%;
+  background-color: $primary;
+  color: $secondary;
+  width: 175px;
+  font-size: 2rem;
+  transition-duration: 33ms;
+  transition-property: background-color, transform;
+  &:hover{
+    transform: scale(1.04);
+    background-color: #263238D4;
+    color: #FFF;
+  }
+}
+
+.image-transition{
+  height: 36%;
+  transition-duration: 1.5s;
+  transition-property: transform;
+  &:hover{
+    transform: scale(1.04);
+  }
+}
+

@@ -5,7 +5,7 @@ class Back extends React.Component {
         return (
                <div className={'back'}>
                    <div className="card">
-                       <h1 className={'text-primary'}>{this.props.iconName}</h1>
+                       <h3 className={'text-primary'}>{this.props.iconName}</h3>
                        <span className={`bi ${this.props.iconClass} icon`}></span>
                    </div>
                </div>

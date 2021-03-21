@@ -108,7 +108,7 @@
     "classIcon": "bi-chat-dots-fill",
     "name": "CHAT"
   },{
-    "classIcon": "bi-chek-all",
+    "classIcon": "bi-check-all",
     "name": "SEEN"
   },{
     "classIcon": "bi-circle-half",
@@ -234,7 +234,7 @@
     "classIcon": "bi-headset",
     "name": "HEADSET"
   },{
-    "classIcon": "bi-heat-half",
+    "classIcon": "bi-heart-half",
     "name": "HEART"
   },{
     "classIcon": "bi-heptagon-half",
@@ -282,7 +282,7 @@
     "classIcon": "bi-megaphone",
     "name": "MEGAPHONE"
   },{
-    "classIcon": "bi-mic-FILL",
+    "classIcon": "bi-mic-fill",
     "name": "MIC"
   },{
     "classIcon": "bi-moon-stars",
@@ -296,5 +296,51 @@
   },{
     "classIcon": "bi-paint-bucket",
     "name": "PAINT"
+  },{
+    "classIcon": "bi-calendar-date",
+    "name": "DATE"
+  },{
+    "classIcon": "bi-camera-video-off",
+    "name": "VIDEO OFF"
+  },{
+    "classIcon": "bi-diagram-2",
+    "name": "DIAGRAM"
+  },{
+    "classIcon": "bi-lock",
+    "name": "LOCK"
+  },{
+    "classIcon": "bi-music-note",
+    "name": "MUSIC"
+  },{
+    "classIcon": "bi-music-player-fill",
+    "name": "IPOD"
+  },{
+    "classIcon": "bi-newspaper",
+    "name": "NEWSPAPER"
+  },{
+    "classIcon": "bi-outlet",
+    "name": "OUTLET"
+  },{
+    "classIcon": "bi-palette-fill",
+    "name": "PALETTE"
+  },{
+    "classIcon": "bi-paperclip",
+    "name": "CLIP"
+  },{
+    "classIcon": "bi-patch-check",
+    "name": "CHECK"
+  },{
+    "classIcon": "bi-pause-circle",
+    "name": "PAUSE"
+  },{
+    "classIcon": "bi-peace",
+    "name": "PEACE"
+  },{
+    "classIcon": "bi-pen",
+    "name": "PEN"
+  },{
+    "classIcon": "bi-play-circle",
+    "name": "PLAY"
   }
+
 ]

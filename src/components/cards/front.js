@@ -1,5 +1,5 @@
 import React from "react";
-import background from '../media/bck.png';
+import background from '../../media/bck.png';
 class Front extends React.Component {
     render() {
         return (

@@ -5,11 +5,10 @@ import Front from './front'
 import Back from './back'
 
 let count = 0
-
+// this.props.delete? 'delete':''
 class Card extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {fill:false}
         this.handleClick = this.handleClick.bind(this);
     }
 
