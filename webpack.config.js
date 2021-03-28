@@ -56,18 +56,6 @@ module.exports = {
           },
         },
       },
-      /* {
-
-                test: /\.mp3$/i,
-                use: {
-                    loader: "file-loader",
-                    options: {
-                        outputPath: "audio",
-                        name: "[name]-[hash].[ext]",
-                    }
-                }
-
-            }, */
       {
         test: /\.js$/,
         loader: 'babel-loader',

@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
-function navBar(props) {
+export default function navBar(props) {
   const { counter } = props;
   const { reset } = props;
   return (
@@ -15,7 +15,7 @@ function navBar(props) {
             {counter}
           </li>
           <li className="nav-item">
-            <span onClick={reset} className="bi bi-arrow-repeat cursor-pointer">
+            <span onClick={reset} role="presentation" className="bi bi-arrow-repeat cursor-pointer">
               Reiniciar
             </span>
           </li>
@@ -24,5 +24,3 @@ function navBar(props) {
     </nav>
   );
 }
-
-export default navBar;
