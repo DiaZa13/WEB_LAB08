@@ -8,20 +8,12 @@ export default class pages  extends React.Component{
         return (
             <Router>
                 <Switch>
-                    <Route path={'/'} exact  render={
-                        () => {
-                            return ( <HomePage/>);
-                        }
-                    }/>
-                    <Route path={"/gamePage"} render={
-                        () => {
-                            return ( <GamePage/>);
-                        }
-                    }/>
+                    <Route exact path={'/'}   component={HomePage}
+                    />
+                    <Route path={"/gamePage"} component={GamePage}
+                    />
                 </Switch>
-
             </Router>
-
         );
     }
 }

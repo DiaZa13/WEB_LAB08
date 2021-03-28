@@ -1,38 +1,30 @@
-import React from "react";
-import Flipcard from 'react-flipcard'
+import React from 'react';
+import Flipcard from 'react-flipcard';
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import Front from './front'
-import Back from './back'
+import Front from './front';
+import Back from './back';
 
-let count = 0
-// this.props.delete? 'delete':''
-class Card extends React.Component {
-    constructor(props) {
-        super(props);
-        this.handleClick = this.handleClick.bind(this);
-    }
+function Card(props) {
+  const { selectedCard } = props;
+  const { isComparing } = props;
+  const { iconClass } = props;
+  const { iconName } = props;
 
-    handleClick(){
-        this.props.selectedCard()
-    }
-
-    render() {
-        return (
-                <div className={"card-container"} onClick={this.props.selectedCard} >
-                   <Flipcard
-                       flipped={this.props.isComparing}
-                       disabled={true}
-                   >
-                       <Front/>
-                       <Back
-                           iconClass = {this.props.iconClass}
-                           iconName = {this.props.iconName}
-                           isComparing = {this.props.isComparing}
-                       />
-                   </Flipcard>
-                </div>
-        );
-    }
+  return (
+    <div className="card-container" onClick={selectedCard}>
+      <Flipcard
+        flipped={isComparing}
+        disabled
+      >
+        <Front />
+        <Back
+          iconClass={iconClass}
+          iconName={iconName}
+          isComparing={isComparing}
+        />
+      </Flipcard>
+    </div>
+  );
 }
 
 export default Card;

@@ -1,22 +1,25 @@
-import React from "react";
-import Card from '../cards/card'
+import React from 'react';
+import Card from '../cards/card';
 
-export default class Game extends React.Component {
-    render() {
-        return (
-                <div className={'container-fluid row'}>
-                    {
-                        this.props.backCard.map((card,index) => {
-                            return <Card
-                            key={index}
-                            iconClass = {card.iconClass}
-                            iconName = {card.iconName}
-                            isComparing = {card.isComparing}
-                            selectedCard = {() => this.props.selectedCard(card)}
-                            />
-                        })
+function Game(props) {
+  const { backCard } = props;
+  const { selectedCard } = props;
+
+  return (
+    <div className="container-fluid row">
+      {
+                        backCard.map((card) => (
+                          <Card
+                            key={card.id}
+                            iconClass={card.iconClass}
+                            iconName={card.iconName}
+                            isComparing={card.isComparing}
+                            selectedCard={() => selectedCard(card)}
+                          />
+                        ))
                     }
-                </div>
-        );
-    }
+    </div>
+  );
 }
+
+export default Game;

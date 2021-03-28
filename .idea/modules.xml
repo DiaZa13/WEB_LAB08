@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../BD_Proyecto1/.idea/BD_Proyecto1.iml" filepath="$PROJECT_DIR$/../BD_Proyecto1/.idea/BD_Proyecto1.iml" />
       <module fileurl="file://$PROJECT_DIR$/../WEB_LAB07/.idea/WEB_LAB07.iml" filepath="$PROJECT_DIR$/../WEB_LAB07/.idea/WEB_LAB07.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/WEB_LAB08.iml" filepath="$PROJECT_DIR$/.idea/WEB_LAB08.iml" />
+      <module fileurl="file://$USER_HOME$/OneDrive - Universidad del Valle de Guatemala/SEMESTRE_5/WEB/lab05/.idea/lab05.iml" filepath="$USER_HOME$/OneDrive - Universidad del Valle de Guatemala/SEMESTRE_5/WEB/lab05/.idea/lab05.iml" />
     </modules>
   </component>
 </project>
