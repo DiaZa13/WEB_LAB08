@@ -13,7 +13,7 @@ const initialState = () => {
   };
 };
 
-// let guessedCards = 0;
+let guessedCards = 0;
 
 export default class GamePage extends React.Component {
   constructor(props) {
@@ -49,21 +49,27 @@ export default class GamePage extends React.Component {
     setTimeout(() => {
       const [firstCard, secondCard] = pairSelected;
       if (firstCard.iconName === secondCard.iconName) {
-        // guessedCards += 1;
-        backCard.map((card) => {
-          if (card.iconName !== firstCard.iconName) {
-            return card;
-          }
-          return false;
-          // console.log('wtf');
-          // newCards.splice(index,1);
-        });
+        guessedCards += 1;
+        console.log(guessedCards);
+        if (guessedCards === 12) {
+          console.log('No seas asi');
+          alert('Has ganado');
+        } else {
+          backCard.map((card) => {
+            if (card.iconName !== firstCard.iconName) {
+              return card;
+            }
+            return false;
+            // console.log('wtf');
+            // newCards.splice(index,1);
+          });
+        }
       } else {
-        console.log('Porque no se voltean solas');
+        // console.log('Porque no se voltean solas');
         firstCard.isComparing = false;
         secondCard.isComparing = false;
       }
-      console.log('cuando se hace esto');
+      // console.log('cuando se hace esto');
       this.setState({
 
         pairSelected: [],
@@ -71,7 +77,7 @@ export default class GamePage extends React.Component {
         backCard: newCards,
       });
     },
-    1500);
+    1000);
   }
 
   resetGame() {
