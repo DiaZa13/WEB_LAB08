@@ -7,7 +7,7 @@ module.exports = {
   mode: 'development',
   devtool: false,
   entry: {
-    index: './src/index.js',
+    index: './src/index.jsx',
   },
   output: {
     filename: '[name].bundle.js',
@@ -25,6 +25,9 @@ module.exports = {
       chunks: ['index'],
     }),
   ],
+  resolve: {
+    extensions: ['.js', '.jsx'],
+  },
   module: {
     rules: [
       {
@@ -57,7 +60,7 @@ module.exports = {
         },
       },
       {
-        test: /\.js$/,
+        test: /\.(js|jsx)$/,
         loader: 'babel-loader',
         exclude: /(node_modules)/,
       },
