@@ -7,7 +7,7 @@ module.exports = {
     mode: 'development',
     devtool:false,
     entry: {
-        index: './src/index.js'
+        index: './src/index.jsx'
     },
     output: {
         filename: "[name].bundle.js",
@@ -19,9 +19,11 @@ module.exports = {
         new htmlWebpackplugin({
             template: "./src/index.html",
             filename: "index.html",
-            chunks: ["index"]
         })
     ],
+    resolve: {
+        extensions: ['.js', '.jsx'],
+    },
     module:{
         rules: [
             {
@@ -53,20 +55,8 @@ module.exports = {
                     }
                 }
             },
-            /*{
-
-                test: /\.mp3$/i,
-                use: {
-                    loader: "file-loader",
-                    options: {
-                        outputPath: "audio",
-                        name: "[name]-[hash].[ext]",
-                    }
-                }
-
-            },*/
             {
-                test: /\.js$/,
+                test: /\.(js|jsx)$/,
                 loader: "babel-loader",
                 exclude: /(node_modules)/,
             },
