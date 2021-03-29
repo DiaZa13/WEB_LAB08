@@ -3,9 +3,13 @@ const path = require('path');
 const miniCssExtractplugin = require('mini-css-extract-plugin');
 const htmlWebpackplugin = require('html-webpack-plugin');
 
+
 module.exports = {
     mode: 'development',
     devtool:false,
+    devServer: {
+        historyApiFallback: true,
+    },
     entry: {
         index: './src/index.js'
     },
@@ -53,18 +57,6 @@ module.exports = {
                     }
                 }
             },
-            /*{
-
-                test: /\.mp3$/i,
-                use: {
-                    loader: "file-loader",
-                    options: {
-                        outputPath: "audio",
-                        name: "[name]-[hash].[ext]",
-                    }
-                }
-
-            },*/
             {
                 test: /\.js$/,
                 loader: "babel-loader",

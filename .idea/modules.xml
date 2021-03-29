@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../BD_Proyecto1/.idea/BD_Proyecto1.iml" filepath="$PROJECT_DIR$/../BD_Proyecto1/.idea/BD_Proyecto1.iml" />
       <module fileurl="file://$PROJECT_DIR$/../WEB_LAB07/.idea/WEB_LAB07.iml" filepath="$PROJECT_DIR$/../WEB_LAB07/.idea/WEB_LAB07.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/WEB_LAB08.iml" filepath="$PROJECT_DIR$/.idea/WEB_LAB08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../react-introduction/.idea/react-introduction.iml" filepath="$PROJECT_DIR$/../react-introduction/.idea/react-introduction.iml" />
     </modules>
   </component>
 </project>

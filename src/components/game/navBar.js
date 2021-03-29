@@ -15,7 +15,7 @@ class navBar extends React.Component {
     render() {
         return (
             <nav className="navbar navbar-expand border-bottom text-primary">
-                <a className="navbar-brand" href="/">HOME</a>
+                <a className="navbar-brand" href="#">HOME</a>
                 <div className="collapse navbar-collapse" id="navbarItems">
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item my-auto mr-5">

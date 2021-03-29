@@ -63,6 +63,8 @@ export default class GamePage extends React.Component{
             const [firstCard, secondCard] = pairSelected;
             if(firstCard.iconName === secondCard.iconName) {
                 guessedCards += 1;
+                firstCard.guessed = true;
+                secondCard.guessed = true;
                 this.state.backCard.map((card) => {
                     const index = this.state.backCard.indexOf(card);
                     if(card.iconName != firstCard.iconName){
@@ -84,7 +86,7 @@ export default class GamePage extends React.Component{
                     isComparing: false,
                     backCard: newCards
                 })}
-        ,1500);
+        ,1000);
 
     }
 

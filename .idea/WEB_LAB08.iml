@@ -9,5 +9,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="WEB_LAB07" />
+    <orderEntry type="module" module-name="BD_Proyecto1" />
+    <orderEntry type="module" module-name="react-introduction" />
   </component>
 </module>

@@ -11,7 +11,8 @@ export default () =>{
             const card = {
                 iconClass: icons[index].classIcon,
                 iconName: icons[index].name,
-                isComparing: false
+                isComparing: false,
+                guessed: false
             };
             cards.push(card);
             cards.push({...card});
