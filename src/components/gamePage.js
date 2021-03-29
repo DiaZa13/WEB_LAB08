@@ -14,7 +14,6 @@ const initialState = ()=>{
 };
 
 let guessedCards = 0;
-
 export default class GamePage extends React.Component{
     constructor(props) {
         super(props);
@@ -55,33 +54,29 @@ export default class GamePage extends React.Component{
 
 
     comparingCards(pairSelected) {
-        console.log('testing')
         this.setState({isComparing: true})
-        const newCards = this.state.backCard;
+        let newCards = this.state.backCard;
 
         setTimeout(()=>{
             const [firstCard, secondCard] = pairSelected;
             if(firstCard.iconName === secondCard.iconName) {
                 guessedCards += 1;
-                firstCard.guessed = true;
-                secondCard.guessed = true;
-                this.state.backCard.map((card) => {
-                    const index = this.state.backCard.indexOf(card);
-                    if(card.iconName != firstCard.iconName){
-                        return card;
-                    }else{
-                        console.log('wtf');
-                        //newCards.splice(index,1);
-                    }
-                });
-            }else{
-                console.log('Porque no se voltean solas')
-                firstCard.isComparing = false;
-                secondCard.isComparing = false;
-            }
-                console.log('cuando se hace esto');
-                this.setState({
+                    newCards = newCards.map((card) => {
+                        const index = this.state.backCard.indexOf(card);
+                        if(card.iconName != firstCard.iconName){
+                            return card;
+                        }else{
+                            return {...card,guessed: true}
+                        }
+                    });
+                }
 
+              if(guessedCards === 12){
+                  alert("Felicidades, has ganado")
+              }
+
+            console.log('cuando hace esto')
+                this.setState({
                     pairSelected: [],
                     isComparing: false,
                     backCard: newCards

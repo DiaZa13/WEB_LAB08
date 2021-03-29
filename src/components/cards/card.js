@@ -4,8 +4,7 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 import Front from './front'
 import Back from './back'
 
-let count = 0
-// this.props.delete? 'delete':''
+
 class Card extends React.Component {
     constructor(props) {
         super(props);
@@ -18,7 +17,8 @@ class Card extends React.Component {
 
     render() {
         return (
-                <div className={"card-container"} onClick={this.props.selectedCard} >
+                <div className={"card-container " + (this.props.guessed?'animate__animated animate__bounceOut':'')}
+                     onClick={this.props.selectedCard} >
                    <Flipcard
                        flipped={this.props.isComparing}
                        disabled={true}
